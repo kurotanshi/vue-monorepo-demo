@@ -1,0 +1,28 @@
+{
+  "name": "vueapps",
+  "version": "1.0.0",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev:app-1": "vite packages/Apps/v-app-1",
+    "dev:app-2": "vite packages/Apps/v-app-2",
+    "dev:app-3": "vite packages/Apps/v-app-3",
+    "build:app-1": "vite build packages/Apps/v-app-1 --mode production",
+    "build:app-2": "vite build packages/Apps/v-app-2 --mode production",
+    "build:app-3": "vite build packages/Apps/v-app-3 --mode production"
+  },
+  "dependencies": {
+    "pinia": "^2.0.30",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.58.0",
+    "vite": "^4.1.1"
+  }
+}

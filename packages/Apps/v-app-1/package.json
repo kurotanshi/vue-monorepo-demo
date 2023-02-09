@@ -1,0 +1,14 @@
+{
+  "name": "@vueapps/app-1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vueapps/components": "workspace:^1.0.0",
+    "@vueapps/utils": "workspace:^1.0.0",
+    "@vueapps/v-app-2": "workspace:^1.0.0",
+    "@vueapps/v-app-3": "workspace:^1.0.0"
+  }
+}

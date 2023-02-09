@@ -1,0 +1,1 @@
+export { default as HelloWorldVue } from "./src/components/HelloWorld.vue";
