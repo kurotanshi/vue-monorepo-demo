@@ -34,8 +34,8 @@ importers:
       '@vueapps/v-app-2': workspace:^1.0.0
       '@vueapps/v-app-3': workspace:^1.0.0
     dependencies:
-      '@vueapps/components': link:../../components
-      '@vueapps/utils': link:../../utils
+      '@vueapps/components': link:../../Components
+      '@vueapps/utils': link:../../Utils
       '@vueapps/v-app-2': link:../v-app-2
       '@vueapps/v-app-3': link:../v-app-3
 
@@ -45,10 +45,10 @@ importers:
   packages/Apps/v-app-3:
     specifiers: {}
 
-  packages/components:
+  packages/Components:
     specifiers: {}
 
-  packages/utils:
+  packages/Utils:
     specifiers: {}
 
 packages:

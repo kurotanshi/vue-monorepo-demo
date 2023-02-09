@@ -6,6 +6,12 @@ Each application has its own package.json file and a public directory containing
 
 The dist directory contains the built files of the application, including HTML, JavaScript, CSS, and favicon.ico files.
 
+
+## Requirements
+
+- [Node.js](https://nodejs.org/en/) (v18.14.0 or higher)
+- [pnpm](https://pnpm.io/installation) (v7.0.0 or higher)
+
 ## Project Setup
 
 ```sh
