@@ -1,4 +1,4 @@
-# Project structure of a Vue.js monorepo project demo
+# Structure of a Vue.js monorepo project demo
 
 This project has a monorepo structure with a packages directory that contains multiple applications. Each application has its own README.md file, index.html, and index.js file, as well as its own dependencies under the node_modules directory. The applications also share common components and utilities.
 
